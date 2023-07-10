@@ -14,5 +14,6 @@
   <project path="meta-openembedded" name="openembedded/meta-openembedded" remote="github" revision="7952135f650b4a754e2255f5aa03973a32344123" upstream="dunfell" />
   <project path="meta-qt5" name="meta-qt5/meta-qt5" remote="github" revision="c1b0c9f546289b1592d7a895640de103723a0305" upstream="dunfell" />
   <project path="meta-virtualization" name="git/meta-virtualization" remote="yoctoproject" revision="a63a54df3170fed387f810f23cdc2f483ad587df" upstream="dunfell" />
+  <project path="meta-renesas" name="TinkerBoard/meta-renesas" remote="github" revision="947f5511c639d0735cc5283be5ef4d7af0380bef" />
   <project path="poky" name="git/poky" remote="yoctoproject" revision="aa0073041806c9f417a33b0b7f747d2a86289eda" upstream="dunfell" />
 </manifest>
