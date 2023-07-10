@@ -7,7 +7,7 @@
            fetch="https://github.com/" />
 
   <project path="docker_builder" name="TinkerBoard/DevOps-docker_builder" remote="github" revision="2944100a310d73463057b665a11576cf884d557d"/>
-  <project path="meta-asus-renesas" name="TinkerBoard/renesas-meta-asus-renesas" remote="github" revision="47e82f0bfbc7a5debd777e698865f99f42b33370" >
+  <project path="meta-asus-renesas" name="TinkerBoard/renesas-meta-asus-renesas" remote="github" revision="44f0c469b9ca3171a898e6419239e66e269df8cd" >
     <linkfile src="tools/build.sh" dest="build.sh" />
   </project>
   <project path="meta-gplv2" name="git/meta-gplv2" remote="yoctoproject" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
