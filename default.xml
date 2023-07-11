@@ -6,14 +6,18 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <project path="docker_builder" name="TinkerBoard/DevOps-docker_builder" remote="github" revision="2944100a310d73463057b665a11576cf884d557d"/>
-  <project path="meta-asus-renesas" name="TinkerBoard/renesas-meta-asus-renesas" remote="github" revision="b4d8d16261649a59c0da02b8d09a074787d11d5d" >
+  <default remote="github"
+           revision="linux5.10-rzfive"
+           sync-c="true" />  
+
+  <project path="docker_builder" name="TinkerBoard/DevOps-docker_builder" />
+  <project path="meta-asus-renesas" name="TinkerBoard/renesas-meta-asus-renesas" >
     <linkfile src="tools/build.sh" dest="build.sh" />
   </project>
   <project path="meta-gplv2" name="git/meta-gplv2" remote="yoctoproject" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
   <project path="meta-openembedded" name="openembedded/meta-openembedded" remote="github" revision="7952135f650b4a754e2255f5aa03973a32344123" upstream="dunfell" />
   <project path="meta-qt5" name="meta-qt5/meta-qt5" remote="github" revision="c1b0c9f546289b1592d7a895640de103723a0305" upstream="dunfell" />
   <project path="meta-virtualization" name="git/meta-virtualization" remote="yoctoproject" revision="a63a54df3170fed387f810f23cdc2f483ad587df" upstream="dunfell" />
-  <project path="meta-renesas" name="TinkerBoard/renesas-meta-renesas" remote="github" revision="947f5511c639d0735cc5283be5ef4d7af0380bef" />
+  <project path="meta-renesas" name="TinkerBoard/renesas-meta-renesas" />
   <project path="poky" name="git/poky" remote="yoctoproject" revision="aa0073041806c9f417a33b0b7f747d2a86289eda" upstream="dunfell" />
 </manifest>
